@@ -1,5 +1,5 @@
 package com.br.pdvpostocombustivel.domain.entity;
-
+import jakarta.persistence.*;
 import javax.xml.crypto.Data;
 import java.math.BigDecimal;
 
