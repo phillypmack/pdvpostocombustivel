@@ -8,7 +8,7 @@ public interface PessoaRepository extends JpaRepository<Pessoa, Long> {
     Optional<Pessoa> findByNomeCompleto(String nomeCompleto);
     Optional<Pessoa> findByCpfCnpj(String cpfCnpj);
     boolean existsByCpfCnpj(String CpfCnpj);
-    boolean existisByNomeCompleto(String nomeCompleto);
+    boolean existsByNomeCompleto(String nomeCompleto);
 
 
 }

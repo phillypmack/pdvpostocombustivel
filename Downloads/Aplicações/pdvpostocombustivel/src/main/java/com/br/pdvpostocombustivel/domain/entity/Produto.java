@@ -1,6 +1,5 @@
 package com.br.pdvpostocombustivel.domain.entity;
 import jakarta.persistence.*;
-import jakarta.persistence.*;
 
 @Entity
 @Table(name = "produto")
@@ -29,7 +28,6 @@ public class Produto {
         this.fornecedor = fornecedor;
         this.categoria = categoria;
         this.marca = marca;
-        this.id = id;
     }
 
     public Produto(){
@@ -62,7 +60,7 @@ public class Produto {
         this.referencia = referencia;
     }
     public void setFornecedor(String fornecedor){
-        this.referencia = referencia;
+        this.fornecedor = fornecedor;
     }
     public void setCategoria(String categoria){
         this.categoria =  categoria;
